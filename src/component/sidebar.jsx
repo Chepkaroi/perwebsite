@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse, faBriefcase, faPhone, faUser } from "@fortawesome/free-solid-svg-icons"; // Import only necessary icons
+import { faHouse, faBriefcase, faPhone, faUser, faVoicemail, faMessage } from "@fortawesome/free-solid-svg-icons"; // Import only necessary icons
 import Image1 from  "../images/img1.jpg";
+import { faFacebook, faInstagram, faTiktok, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
-class Home extends Component {
+class Sidebar extends Component {
     render() {
         return (
-           <div className='border-[2px] cursor-cell p-3 max-w-[400px] rounded-[30px] border-[#005d99] flex-col align-middle justify-center '>
-            <div><img src={Image1} alt="Me" className='w-[250px] h-[300px] rounded-[10%] border-none mx-auto' /></div>
+           <div className='border-[1px] cursor-cell  p-3 min-w-[400px] max-w-[400px] rounded-[30px] border-[#7a8085] flex-col align-middle justify-center '>
+            <div><img src={Image1} alt="Me"  className='w-[250px]  rounded-[10px] border-[1px] border-[#7a8085] mx-auto' /></div>
             <div className='flex align-middle justify-center pt-8 text-2xl font-bold'>
             <h1>Amon Too</h1>
             </div>
-            <div className='flex align-middle justify-center  pt-8 text-1xl font-bold'>
-            <h1 className='text-[#cccccc]'> Ux/Ui Designer $ Developer</h1>
+            <div className='flex align-middle justify-evenly w-auto  pt-8 text-1xl font-bold'>
+           <a href="" className=" hover:bg-[#282c34] hover:rounded-[10px] p-3"> <FontAwesomeIcon icon={faFacebook} className="fa-solid text-[#005d99]"/></a>
+            <a href="" className="hover:bg-[#282c34] hover:rounded-[10px] p-3"><FontAwesomeIcon icon={faWhatsapp} className="fa-solid text-[#005d99]"/></a>
+            <a href="" className="hover:bg-[#282c34] hover:rounded-[10px] p-3"><FontAwesomeIcon icon={faInstagram} className="fa-solid text-[#005d99]"/></a>
+           <a href="" className="hover:bg-[#282c34] hover:rounded-[10px] p-3"> <FontAwesomeIcon icon={faTiktok} className="fa-solid text-[#005d99]"/></a>
             </div>
             <div className='w-[250px] h-auto my-[10%] pt-[10%] rounded-[10%] border-t-[1px] border-b-[1px] mx-auto'>
             <div className=' flex p-[10%] hover:bg-[#282c34] hover:rounded-[10px]'>
@@ -56,4 +60,4 @@ class Home extends Component {
     }   
 }
 
-export default Home;
+export default Sidebar;

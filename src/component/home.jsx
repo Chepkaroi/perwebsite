@@ -4,7 +4,7 @@ import { faBriefcase, faCalendarDays, faEnvelope, faLocationDot, faPhone, faSign
 import { faFacebook, faTwitter, faIntercom, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import Image1 from  "../images/img1.jpg"
 
-class Landing extends Component {
+class Home extends Component {
     render() {
         return (
             <div className='w-full  flex text-black justify-between px-16 cursor-pointer'>
@@ -23,4 +23,4 @@ class Landing extends Component {
     }   
 }
 
-export default Landing;
+export default Home;
