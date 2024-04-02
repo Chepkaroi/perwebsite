@@ -4,11 +4,15 @@ import Sidebar from "./component/sidebar";
 
 function App() {
    return (
-      <div className="w-[100%] flex">
+      <div className="w-full flex-col justify-center md:w-600">
+      <div className="mt-3">
          <Sidebar />
-         <Home />
-        
       </div>
+      <div className="mt-3">
+      <Home />
+      </div>
+    </div>
+    
    );
 }
 
