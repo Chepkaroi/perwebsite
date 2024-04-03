@@ -7,16 +7,16 @@ import { faFacebook, faInstagram, faTiktok, faTwitter, faWhatsapp } from '@forta
 class Sidebar extends Component {
     render() {
         return (
-            <div className='border-[1px] cursor-cell  p-3 max-w-[400px]  rounded-[30px] border-[#7a8085] flex-col align-middle justify-center '>
+            <div className='border-[1px] mx-3 cursor-cell  p-3 w-[430px] rounded-[30px] border-[#7a8085] flex-col align-middle justify-center '>
             <div><img src={Image1} alt="Me"  className='w-[250px]  rounded-[10px] border-[1px] border-[#7a8085] mx-auto' /></div>
             <div className='flex align-middle justify-center pt-8 cursor-pointer'>
             <h1 className=' hover:text-[#cccccc]'>amontoo53@gmail.com</h1>
             </div>
             <div className='flex align-middle justify-evenly w-auto  pt-8 text-1xl font-bold'>
-           <a href="" className=" hover:bg-[#282c34] hover:rounded-[10px] p-3"> <FontAwesomeIcon icon={faFacebook} className="fa-solid text-[#005d99] hover:text-[#cccccc]"/></a>
-            <a href="" className="hover:bg-[#282c34] hover:rounded-[10px] p-3"><FontAwesomeIcon icon={faWhatsapp} className="fa-solid text-[#005d99] hover:text-[#cccccc]"/></a>
-            <a href="" className="hover:bg-[#282c34] hover:rounded-[10px] p-3"><FontAwesomeIcon icon={faInstagram} className="fa-solid text-[#005d99] hover:text-[#cccccc]"/></a>
-           <a href="" className="hover:bg-[#282c34] hover:rounded-[10px] p-3"> <FontAwesomeIcon icon={faTiktok} className="fa-solid text-[#005d99] hover:text-[#cccccc]"/></a>
+           <a href="" className=" hover:bg-[#282c34] hover:rounded-[10px] p-3"> <FontAwesomeIcon icon={faFacebook} className="fa-solid text-[#005d99] hover:text-xl hover:text-[#cccccc]"/></a>
+            <a href="" className="hover:bg-[#282c34] hover:rounded-[10px] p-3"><FontAwesomeIcon icon={faWhatsapp} className="fa-solid text-[#005d99] hover:text-xl hover:text-[#cccccc]"/></a>
+            <a href="" className="hover:bg-[#282c34] hover:rounded-[10px] p-3"><FontAwesomeIcon icon={faInstagram} className="fa-solid text-[#005d99] hover:text-xl hover:text-[#cccccc]"/></a>
+           <a href="" className="hover:bg-[#282c34] hover:rounded-[10px] p-3"> <FontAwesomeIcon icon={faTiktok} className="fa-solid text-[#005d99] hover:text-xl hover:text-[#cccccc]"/></a>
             </div>
             <div className='w-[250px] h-auto my-[10%] pt-[10%] rounded-[10%] border-t-[1px] border-b-[1px] mx-auto'>
             <div className=' flex p-[10%] hover:bg-[#282c34] hover:rounded-[10px]'>
