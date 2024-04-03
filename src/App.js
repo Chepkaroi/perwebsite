@@ -4,7 +4,7 @@ import Sidebar from "./component/sidebar";
 
 function App() {
    return (
-      <div className="w-full flex-col justify-center md:w-600">
+      <div className="w-full flex-col justify-center">
       <div className="mt-3">
          <Sidebar />
       </div>
