@@ -7,7 +7,7 @@ import { faFacebook, faInstagram, faTiktok, faTwitter, faWhatsapp } from '@forta
 class Sidebar extends Component {
     render() {
         return (
-            <div className='border-[1px] mx-3 cursor-cell  p-3 w-[430px] rounded-[30px] border-[#7a8085] flex-col align-middle justify-center '>
+            <div className='border-[1px] mx-3 cursor-cell  p-3 w-[400px] rounded-[30px] border-[#7a8085] flex-col align-middle justify-center '>
             <div><img src={Image1} alt="Me"  className='w-[250px]  rounded-[10px] border-[1px] border-[#7a8085] mx-auto' /></div>
             <div className='flex align-middle justify-center pt-8 cursor-pointer'>
             <h1 className=' hover:text-[#cccccc]'>amontoo53@gmail.com</h1>
